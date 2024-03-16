@@ -308,9 +308,3 @@ function toggleRegisterForm(show) {
 }
 //  to check if you get the data from other js files
 console.log(userExamData[1].correct);
-
-// EXAMPLE
-// saveUserAnswer("ahmet123", "question1", "A");
-// saveIncorrectQuestions("ahmet123", ["question2", "question5"]);
-// saveCorrectThemes("ahmet123", "animal");
-// analyzeUserExam("ahmet123");

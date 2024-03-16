@@ -2,25 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word Quiz</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/2100560cdb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <main class="main">
         <header class="header">
             <a href="main.html" class="logo">WQUIZ.</a>
             <nav class="navbar">
                 <ul class="nav-links">
                     <li class="nav-link"><a href="#">Home</a></li>
-                    <li class="nav-link"><a href="https://github.com/BatuhanARK/WQUIZ." target="_blank">About</a></li>
-                    <li class="nav-link profile"><a href="#">Profile
+                    <li class="nav-link">
+                        <a href="https://github.com/ARK-Software-Team/WQUIZ" target="_blank">About</a>
+                    </li>
+                    <li class="nav-link profile">
+                        <a href="#">Profile
                             <i class="fa-solid fa-caret-down"></i>
                         </a>
                         <ul class="drop-down">
@@ -32,7 +34,6 @@
                 </ul>
             </nav>
         </header>
-
         <div class="container">
             <section class="quiz-section">
                 <div class="quiz-box">
@@ -41,41 +42,39 @@
                         <span>English ↔ Turkish</span>
                         <span class="header-score">Score: 0 / 10</span>
                     </div>
-
-                    <h2 class="question-text"><!-- questions are added automatically from javascript.js --></h2>
-
+                    <h2 class="question-text">
+                        <!-- questions are added automatically from javascript.js -->
+                    </h2>
                     <div class="option-list">
                         <!-- options are added automatically from javascript.js -->
                     </div>
-
                     <div class="quiz-footer">
                         <span class="question-total">1 of 10 Questions</span>
                         <button class="next-btn">Next</button>
                     </div>
                 </div>
-
                 <div class="result-box">
                     <h2>Quiz Result!</h2>
                     <div class="percentage-container">
                         <div class="circular-progress">
                             <span class="progress-value">0%</span>
                         </div>
-
                         <span class="score-text">Your Score 0 out of 10</span>
                     </div>
-
                     <div class="buttons">
                         <button class="tryAgain-btn">Try Again</button>
                         <button class="goHome-btn">Go To Home</button>
                     </div>
                 </div>
-
             </section>
             <section class="home">
                 <div class="home-content">
                     <h1>Word Quiz</h1>
-                    <p>WQUIZ, measures your English-Turkish vocabulary. While doing this, it also analyzes
-                        how long words are kept in your memory according to their types.</p>
+                    <p>
+                        WQUIZ, measures your English-Turkish vocabulary. While doing this,
+                        it also analyzes how long words are kept in your memory according
+                        to their types.
+                    </p>
                     <button class="start-btn">Start Word Quiz</button>
                 </div>
             </section>
@@ -86,15 +85,12 @@
             <h2>Quiz Guide</h2>
             <span class="info">1. &nbsp;&nbsp; Total of 10 questions will be asked at a time.</span>
             <span class="info">2. &nbsp;&nbsp;The questions you got wrong will be replaced with
-                &nbsp;&nbsp;new
-                questions.</span>
-            <span class="info">3. &nbsp;&nbsp;The quiz will be repeated a total of 6 times at certain
-                &nbsp;&nbsp;time intervals. (1 day, 1 week, 1 month, 3 months, 6
-                &nbsp;&nbsp;months,
-                1 year)</span>
+                &nbsp;&nbsp;new questions.</span>
+            <span class="info">3. &nbsp;&nbsp;The quiz will be repeated a total of 6 times at
+                certain &nbsp;&nbsp;time intervals. (1 day, 1 week, 1 month, 3 months,
+                6 &nbsp;&nbsp;months, 1 year)</span>
             <span class="info">4. &nbsp;&nbsp;You can add extra English words from the home
-                &nbsp;&nbsp;page
-                before starting the quiz.</span>
+                &nbsp;&nbsp;page before starting the quiz.</span>
             <span class="info">5. &nbsp;&nbsp;After completing the quiz, you can access your
                 &nbsp;&nbsp;reports from your profile.</span>
 
@@ -104,30 +100,29 @@
             </div>
         </div>
     </div>
-
     <div class="regLog">
         <div class="r-p" id="loginPage">
             <div class="registration-page">
                 <form class="loginForm">
                     <h1>Login</h1>
                     <div class="input-box">
-                        <input type="text" class="username" placeholder="Username" required>
-                        <i class='bx bxs-user'></i>
+                        <input type="text" class="username" placeholder="Username" required />
+                        <i class="bx bxs-user"></i>
                     </div>
                     <div class="input-box">
-                        <input type="password" class="password" placeholder="Password" required>
-                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" class="password" placeholder="Password" required />
+                        <i class="bx bxs-lock-alt"></i>
                     </div>
-
                     <div class="remember-forgot">
-                        <label><input type="checkbox">Remember me</label>
+                        <label><input type="checkbox" />Remember me</label>
                         <a href="#" class="forgot-password" id="forgotPassword">Forgot password?</a>
                     </div>
-
                     <button type="submit" class="login btn">Login</button>
-
                     <div class="register-link">
-                        <p>Don't have an account? <a href="#" class="registerLink">Register</a></p>
+                        <p>
+                            Don't have an account?
+                            <a href="#" class="registerLink">Register</a>
+                        </p>
                     </div>
                 </form>
             </div>
@@ -137,24 +132,24 @@
                 <form class="registerForm">
                     <h1>Register</h1>
                     <div class="input-box">
-                        <input type="text" class="newUsername" id="newUsername" placeholder="New Username" required>
-                        <i class='bx bxs-user'></i>
+                        <input type="text" class="newUsername" id="newUsername" placeholder="New Username" required />
+                        <i class="bx bxs-user"></i>
                     </div>
                     <div class="input-box">
-                        <input type="password" class="newPassword" id="newPassword" placeholder="New Password" required>
-                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" class="newPassword" id="newPassword" placeholder="New Password"
+                            required />
+                        <i class="bx bxs-lock-alt"></i>
                     </div>
-
                     <button type="submit" class="register btn">Register</button>
-
                     <div class="register-link">
-                        <p>Already have an account? <a href="#" class="loginLink">Login</a></p>
+                        <p>
+                            Already have an account? <a href="#" class="loginLink">Login</a>
+                        </p>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-
     <script src="javascript.js"></script>
     <script src="questions.js"></script>
     <script src="userInfo.js"></script>
