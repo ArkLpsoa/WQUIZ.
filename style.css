@@ -77,7 +77,6 @@ body *:not(::selection) {
     gap: 3vw;
     align-items: center;
     justify-content: center;
-    align-items: center;
 }
 .nav-link .drop-down li {
     font-size: 2vh;
@@ -524,7 +523,6 @@ body *:not(::selection) {
     align-items: center;
     position: fixed;
     text-align: center;
-    display: flex;
     flex-direction: column;
     top: 0;
     left: 0;
@@ -549,7 +547,6 @@ body *:not(::selection) {
     align-items: center;
     position: fixed;
     text-align: center;
-    display: flex;
     flex-direction: column;
     top: 0;
     left: 0;
@@ -623,7 +620,6 @@ body *:not(::selection) {
     width: 17vw;
     height: 6vh;
     background: transparent;
-    border: none;
     outline: none;
     border: 0.24vh solid rgba(255, 255, 255, 0.2);
     border-radius: 5vh;
@@ -664,7 +660,6 @@ body *:not(::selection) {
     /* removes browser default style*/
     appearance: none;
     -webkit-appearance: none;
-    accent-color: #000000;
     background-color: transparent;
     border: 0.25vh solid #cccccc;
     border-radius: 1vh;
